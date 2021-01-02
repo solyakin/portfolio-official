@@ -1,0 +1,14 @@
+.menu_list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0px;
+}
+.menu_list li{
+    font-size: 12px;
+}
+@media only screen and (max-width: 680px){
+    .menu_list{
+        display: none;
+    }
+}

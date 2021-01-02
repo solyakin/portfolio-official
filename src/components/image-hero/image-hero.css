@@ -1,0 +1,36 @@
+.image{
+    width: 400px;
+    height: 500px;
+}
+.menu-icon{
+    display: none;
+}
+.top-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.image-hero{
+    z-index: 5;
+    position: absolute;
+}
+.skills{
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 680px){
+    .image{
+        width: 100%;
+    }
+    .image-hero{
+        position: initial;
+    }
+    .menu-icon{
+        display: inline;
+    }
+    .skills{
+        font-size: 10px;
+    }
+}
